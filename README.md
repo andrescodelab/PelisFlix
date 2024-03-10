@@ -36,7 +36,7 @@ Si deseas contribuir a este proyecto, ¡te damos la bienvenida! Puedes abrir un 
 Este proyecto fue desarrollado por:
 
 - {andrescodelab}
-- {https://github.com/andrescodelab}
+- https://github.com/andrescodelab
 
 ## URL de la aplicación
 
