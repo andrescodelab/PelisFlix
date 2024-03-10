@@ -1,70 +1,47 @@
-# Getting Started with Create React App
+# PelisFlix
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+PelisFlix es una aplicación web para mostrar y gestionar películas. Permite a los usuarios agregar, editar, eliminar y buscar películas.
 
-## Available Scripts
+## Características
 
-In the project directory, you can run:
+- **Agregar Películas**: Los usuarios pueden agregar nuevas películas proporcionando el título y la descripción.
+- **Editar Películas**: Los usuarios pueden editar la información de las películas existentes, como el título y la descripción.
+- **Eliminar Películas**: Los usuarios pueden eliminar películas de la lista.
+- **Buscar Películas**: Los usuarios pueden buscar películas por título.
+- **Almacenamiento Local**: La aplicación utiliza el almacenamiento local para almacenar las películas, lo que permite a los usuarios acceder a la misma lista de películas en diferentes sesiones.
 
-### `npm start`
+## Tecnologías Utilizadas
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **React**: Utilizado para construir la interfaz de usuario interactiva y dinámica.
+- **LocalStorage API**: Utilizado para almacenar y recuperar datos localmente en el navegador del usuario.
+- **JavaScript (ES6+)**: Utilizado para la lógica de programación en el lado del cliente.
+- **CSS**: Utilizado para el diseño y estilizado de la interfaz de usuario.
+- **GitHub**: Utilizado para control de versiones y alojamiento del repositorio del proyecto.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Instalación
 
-### `npm test`
+1. Clona este repositorio en tu máquina local.
+2. Navega hasta el directorio del proyecto.
+3. Instala las dependencias del frontend y del backend utilizando `npm install` en cada directorio respectivamente.
+4. Configura tu base de datos MongoDB.
+5. Ejecuta `npm start` en el directorio del backend para iniciar el servidor.
+6. Ejecuta `npm start` en el directorio del frontend para iniciar la aplicación web.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Contribuir
 
-### `npm run build`
+Si deseas contribuir a este proyecto, ¡te damos la bienvenida! Puedes abrir un issue para discutir nuevas características o enviar un pull request con tus cambios.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Equipo
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Este proyecto fue desarrollado por:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- {andrescodelab}
+- {https://github.com/andrescodelab}
 
-### `npm run eject`
+## URL de la aplicación
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+https://andrescodelab.000webhostapp.com
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Licencia
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Este proyecto está bajo la Licencia MIT. Para más detalles, consulta el archivo [LICENSE.md](LICENSE.md).
